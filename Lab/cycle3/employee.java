@@ -34,25 +34,25 @@ class print {
         System.out.println("Enter the phone number: ");
         o1.ph = s.nextLong();
         System.out.println("Enter the Address: ");
-        o1.address = s.nextLine();
+        o1.address = s.next();
         System.out.println("Enter the Salary: ");
         o1.salary = s.nextDouble();
         System.out.println("Enter the Specialization: ");
-        o1.specialization = s.nextLine();
+        o1.specialization = s.next();
         
         System.out.println("Enter the Manager's details");
         System.out.println("Enter The Name:");
-        m1.name = s.nextLine();
+        m1.name = s.next();
         System.out.println("Enter the Age:");
         m1.age = s.nextInt();
         System.out.println("Enter the phone number:");
         m1.ph = s.nextLong();
         System.out.println("Enter the Address:");
-        m1.address = s.nextLine();
+        m1.address = s.next();
         System.out.println("Enter the Salary:");
         m1.salary = s.nextDouble();
         System.out.println("Enter the Department:");
-        m1.dept = s.nextLine();
+        m1.dept = s.next();
         
         System.out.println("The details of the Officer are:");
         System.out.println("Name: " + o1.name);
